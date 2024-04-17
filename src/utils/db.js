@@ -7,7 +7,7 @@ export default async function connect() {
   );
     alert(" conectado");
   } catch (error) {
-    alert("não conectado");
+    alert(" não conectado");
     throw new Error(error);
   }
 }
